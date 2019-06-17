@@ -1,5 +1,7 @@
 package tudelft.numfinder;
 
+import java.io.IOException;
+
 public class NumFinderMain {
 
     public static void main (String[] args) {
@@ -8,7 +10,7 @@ public class NumFinderMain {
         // this works
         // nf.find(new int[] {4, 25, 7, 9});
 
-        // this crashes
+        // this  doesn't crash now
         nf.find(new int[] {4, 3, 2, 1});
 
         System.out.println(nf.getLargest());
